@@ -1,0 +1,34 @@
+/* 
+Template: Hotel Booking Website Template
+Author: Shuvo Mallick
+Description: Website title
+Version: 1.0.0
+Keywords: 'bootstrap template', 'javascript', 'html-css', 'web template'
+*/
+
+/* ===== IMPORT INDEX ===== */
+// Custom Function
+@import "./functions";
+
+// All Variable
+@import "./variables";
+
+// Bootstrap
+@import "./bootstrap";
+
+// Custom Mixins
+@import "./mixins";
+
+// Custom Utilities
+@import "./utilities";
+
+// Custom Component
+@import "./component";
+
+// Custom All Pages
+@import "./pages/home";
+
+// Custom Responsive
+@import "./responsive";
+
+/* ===== IMPORT INDEX ===== */
