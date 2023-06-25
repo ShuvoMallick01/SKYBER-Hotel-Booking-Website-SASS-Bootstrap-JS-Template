@@ -5,6 +5,19 @@
 // === / NAVBAR ===
 
 // === BANNER ===
+.banner {
+  &__overlay {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.445);
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
 // === / BANNER ===
 
 // === TITLE ===
