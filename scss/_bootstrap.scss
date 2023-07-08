@@ -27,11 +27,47 @@
 // Full Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+// === NAVBAR ===
+.navbar-toggler {
+  &:focus {
+    box-shadow: none;
+  }
+}
+navbar-toggler
+// === / NAVBAR ===
+
 // === BUTTON ===
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-text {
+  cursor: pointer;
+  background-color: transparent;
+  border: transparent;
+  padding: 5px;
+}
 // === / BUTTON ===
 
 // === FORM ===
+.form-select {
+  &:focus,
+  &:focus-visible,
+  &:focus-within {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: $gray-400 !important;
+  }
+}
 
+.form-control:focus {
+  box-shadow: 0 0 0 0 !important;
+  border-color: $gray-400;
+}
 // === / FORM ===
 
 // === TITLE ===

@@ -1966,8 +1966,8 @@ progress {
 }
 
 .col-form-label {
-  padding-top: calc(0.65rem + 1px);
-  padding-bottom: calc(0.65rem + 1px);
+  padding-top: calc(0.9rem + 1px);
+  padding-bottom: calc(0.9rem + 1px);
   margin-bottom: 0;
   font-size: inherit;
   line-height: 1.5;
@@ -1994,7 +1994,7 @@ progress {
 .form-control {
   display: block;
   width: 100%;
-  padding: 0.65rem 1.7rem;
+  padding: 0.9rem 1.7rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -2036,8 +2036,8 @@ progress {
   opacity: 1;
 }
 .form-control::file-selector-button {
-  padding: 0.65rem 1.7rem;
-  margin: -0.65rem -1.7rem;
+  padding: 0.9rem 1.7rem;
+  margin: -0.9rem -1.7rem;
   margin-inline-end: 1.7rem;
   color: #212529;
   background-color: #e9ecef;
@@ -2061,7 +2061,7 @@ progress {
 .form-control-plaintext {
   display: block;
   width: 100%;
-  padding: 0.65rem 0;
+  padding: 0.9rem 0;
   margin-bottom: 0;
   line-height: 1.5;
   color: #212529;
@@ -2102,7 +2102,7 @@ progress {
 }
 
 textarea.form-control {
-  min-height: calc(1.5em + 1.3rem + 2px);
+  min-height: calc(1.5em + 1.8rem + 2px);
 }
 textarea.form-control-sm {
   min-height: calc(1.5em + 0.5rem + 2px);
@@ -2113,8 +2113,8 @@ textarea.form-control-lg {
 
 .form-control-color {
   width: 3rem;
-  height: calc(1.5em + 1.3rem + 2px);
-  padding: 0.65rem;
+  height: calc(1.5em + 1.8rem + 2px);
+  padding: 0.9rem;
 }
 .form-control-color:not(:disabled):not([readonly]) {
   cursor: pointer;
@@ -2136,7 +2136,7 @@ textarea.form-control-lg {
 .form-select {
   display: block;
   width: 100%;
-  padding: 0.65rem 5.1rem 0.65rem 1.7rem;
+  padding: 0.9rem 5.1rem 0.9rem 1.7rem;
   -moz-padding-start: calc(1.7rem - 3px);
   font-size: 1rem;
   font-weight: 400;
@@ -2493,7 +2493,7 @@ textarea.form-control-lg {
 .input-group-text {
   display: flex;
   align-items: center;
-  padding: 0.65rem 1.7rem;
+  padding: 0.9rem 1.7rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -2584,11 +2584,11 @@ textarea.form-control-lg {
 
 .was-validated .form-control:valid, .form-control.is-valid {
   border-color: #198754;
-  padding-right: calc(1.5em + 1.3rem);
+  padding-right: calc(1.5em + 1.8rem);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
-  background-position: right calc(0.375em + 0.325rem) center;
-  background-size: calc(0.75em + 0.65rem) calc(0.75em + 0.65rem);
+  background-position: right calc(0.375em + 0.45rem) center;
+  background-size: calc(0.75em + 0.9rem) calc(0.75em + 0.9rem);
 }
 .was-validated .form-control:valid:focus, .form-control.is-valid:focus {
   border-color: #198754;
@@ -2596,8 +2596,8 @@ textarea.form-control-lg {
 }
 
 .was-validated textarea.form-control:valid, textarea.form-control.is-valid {
-  padding-right: calc(1.5em + 1.3rem);
-  background-position: top calc(0.375em + 0.325rem) right calc(0.375em + 0.325rem);
+  padding-right: calc(1.5em + 1.8rem);
+  background-position: top calc(0.375em + 0.45rem) right calc(0.375em + 0.45rem);
 }
 
 .was-validated .form-select:valid, .form-select.is-valid {
@@ -2607,7 +2607,7 @@ textarea.form-control-lg {
   padding-right: 9.35rem;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
   background-position: right 1.7rem center, center right 5.1rem;
-  background-size: 16px 12px, calc(0.75em + 0.65rem) calc(0.75em + 0.65rem);
+  background-size: 16px 12px, calc(0.75em + 0.9rem) calc(0.75em + 0.9rem);
 }
 .was-validated .form-select:valid:focus, .form-select.is-valid:focus {
   border-color: #198754;
@@ -2615,7 +2615,7 @@ textarea.form-control-lg {
 }
 
 .was-validated .form-control-color:valid, .form-control-color.is-valid {
-  width: calc(3rem + calc(1.5em + 1.3rem));
+  width: calc(3rem + calc(1.5em + 1.8rem));
 }
 
 .was-validated .form-check-input:valid, .form-check-input.is-valid {
@@ -2674,11 +2674,11 @@ textarea.form-control-lg {
 
 .was-validated .form-control:invalid, .form-control.is-invalid {
   border-color: #dc3545;
-  padding-right: calc(1.5em + 1.3rem);
+  padding-right: calc(1.5em + 1.8rem);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
-  background-position: right calc(0.375em + 0.325rem) center;
-  background-size: calc(0.75em + 0.65rem) calc(0.75em + 0.65rem);
+  background-position: right calc(0.375em + 0.45rem) center;
+  background-size: calc(0.75em + 0.9rem) calc(0.75em + 0.9rem);
 }
 .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
   border-color: #dc3545;
@@ -2686,8 +2686,8 @@ textarea.form-control-lg {
 }
 
 .was-validated textarea.form-control:invalid, textarea.form-control.is-invalid {
-  padding-right: calc(1.5em + 1.3rem);
-  background-position: top calc(0.375em + 0.325rem) right calc(0.375em + 0.325rem);
+  padding-right: calc(1.5em + 1.8rem);
+  background-position: top calc(0.375em + 0.45rem) right calc(0.375em + 0.45rem);
 }
 
 .was-validated .form-select:invalid, .form-select.is-invalid {
@@ -2697,7 +2697,7 @@ textarea.form-control-lg {
   padding-right: 9.35rem;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e"), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
   background-position: right 1.7rem center, center right 5.1rem;
-  background-size: 16px 12px, calc(0.75em + 0.65rem) calc(0.75em + 0.65rem);
+  background-size: 16px 12px, calc(0.75em + 0.9rem) calc(0.75em + 0.9rem);
 }
 .was-validated .form-select:invalid:focus, .form-select.is-invalid:focus {
   border-color: #dc3545;
@@ -2705,7 +2705,7 @@ textarea.form-control-lg {
 }
 
 .was-validated .form-control-color:invalid, .form-control-color.is-invalid {
-  width: calc(3rem + calc(1.5em + 1.3rem));
+  width: calc(3rem + calc(1.5em + 1.8rem));
 }
 
 .was-validated .form-check-input:invalid, .form-check-input.is-invalid {
@@ -2735,7 +2735,7 @@ textarea.form-control-lg {
 
 .btn {
   --bs-btn-padding-x: 1.7rem;
-  --bs-btn-padding-y: 0.65rem;
+  --bs-btn-padding-y: 0.9rem;
   --bs-btn-font-family: ;
   --bs-btn-font-size: 0.875rem;
   --bs-btn-font-weight: 400;
@@ -10779,11 +10779,44 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+navbar-toggler .btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-text {
+  cursor: pointer;
+  background-color: transparent;
+  border: transparent;
+  padding: 5px;
+}
+
+.form-select:focus, .form-select:focus-visible, .form-select:focus-within {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #ced4da !important;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0 !important;
+  border-color: #ced4da;
+}
+
+.customNavbar .scroll-nav-color {
+  background-color: rgba(0, 0, 0, 0.37);
+}
 .customNavbar__nav .active {
   font-weight: 600;
 }
 
-.banner__overlay {
+.banner__slider__overlay {
   content: "";
   position: absolute;
   background-color: rgba(0, 0, 0, 0.445);
@@ -10800,9 +10833,16 @@ textarea.form-control-lg {
 .banner__contents p {
   font-size: 15px;
 }
+.banner__contents .scroll-btn {
+  font-size: 15px;
+  font-weight: 400;
+}
 .banner__filter .form-label {
   font-size: 15px;
   font-weight: 500;
+}
+.banner__filter .form-label {
+  margin-bottom: 0px;
 }
 .banner__filter .form-control {
   padding: 0;
@@ -10810,11 +10850,66 @@ textarea.form-control-lg {
   font-size: 15px;
   font-weight: 400;
 }
+.banner__filter__formGroup .singleForm {
+  padding-left: 30px;
+  padding-right: 20px;
+  border-right: 1px solid #ced4da;
+}
+.banner__filter__formGroup .singleForm:last-child {
+  border-right: none;
+}
+.banner__filter button {
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+}
+.banner__scroll .vertical-line {
+  width: 47px;
+  height: 1px;
+  transform: rotate(-90deg);
+  flex-shrink: 0;
+  background-color: #fff;
+}
 
 /* === `xxl` applies to large devices (Desktop, less than 1200px) === */
 /* === `xl` applies to large devices (Desktop, less than 1200px) === */
 /* === 'lg' applies to medium devices (Tablets, less than 992px) === */
+@media (max-width: 992px) {
+  .customNavbar__nav {
+    background-color: rgba(32, 32, 32, 0.95);
+    gap: 0px !important;
+    border-radius: 10px;
+  }
+  .customNavbar__nav li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #343a40;
+  }
+  .customNavbar__nav li:last-child {
+    border-bottom: none;
+  }
+  .customNavbar__nav li:hover {
+    background-color: rgba(0, 0, 0, 0.774);
+  }
+  .customNavbar form {
+    justify-content: start !important;
+  }
+}
 /* === 'md' applies to small device (Landscape Phones, loess then 768px) === */
+@media (max-width: 768px) {
+  .banner__contents {
+    padding: 0px 30px;
+  }
+  .banner__contents h2, .banner__contents .h2 {
+    font-size: 45px !important;
+  }
+  .banner__filter__formGroup .singleForm {
+    padding: 10px 30px;
+    border-bottom: 1px solid #ced4da;
+  }
+  .banner__filter__formGroup .singleForm:last-child {
+    border-bottom: none;
+  }
+}
 /* === sm applies to x-small devices (Mobile, Portrait phones, less than 576px) ===  */
 /* ===== IMPORT INDEX ===== */
 
