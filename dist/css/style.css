@@ -10817,6 +10817,14 @@ navbar-toggler .btn:focus,
   color: #697488;
 }
 
+.text-head-color {
+  color: #051036;
+}
+
+.text-parag-color {
+  color: #697488;
+}
+
 .section-title {
   font-size: 30px;
   font-weight: 600;
